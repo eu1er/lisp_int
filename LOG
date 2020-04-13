@@ -1,0 +1,50 @@
+this project is meant to be small.
+use as a starter understanding in
+    ┃functional programing language,
+    ┃writing intrepretor.
+
+FILE:
+    001.c
+    001.h
+
+TODO:
+    FIX [001:201912231453]
+    ADD garbage corrector
+    ADD use func as argument
+
+PROJECT LOG:
+    2019 12 21	this project already been experiment on lambda-project
+		most of functionality is working
+		except defining function,
+		[001] is some what a redesign of lambda-project.
+
+    2019 12 23  adding define function and value,
+		adding if statment and comparison,
+		start <testing> y combinator.
+
+		[001:201912231707] 
+		    <fail> y combinator,
+		    reson defined funcsion doen't eval within another
+		    defined funcsion.
+
+		[001:201912232129] 
+		    <fixed>, now it can do simple recusion
+
+		[001:201912232257] 
+		    <added> if compaision logic and min max,
+		    put now can display string.
+
+    2019 12 24	try to fixing bug
+
+		[001:201912241453]
+		    <fixing>, close parentheses with no arg that cause crashing,
+		    <BUG> data in ./def
+
+    2020 01 05 try add copy root
+		
+		[1_2F083371C4b]
+		    done copy root, can run ackermann,
+		    task left,
+		    -refine code, there lot of junck code now
+		    -add passing def as arg
+		    -more test
